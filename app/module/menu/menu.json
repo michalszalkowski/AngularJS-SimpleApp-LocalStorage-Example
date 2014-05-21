@@ -1,0 +1,12 @@
+[
+    {
+        "id": "0",
+        "name": "Post",
+        "slug": "post"
+    },
+    {
+        "id": "1",
+        "name": "About Us",
+        "slug": "about-us"
+    }
+]

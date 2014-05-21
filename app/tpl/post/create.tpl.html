@@ -1,0 +1,15 @@
+
+<h1>New Post</h1>
+
+<form role="form" ng-submit="save()">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" ng-model="form.name" placeholder="Enter name">
+    </div>
+    <div class="form-group">
+        <label for="desc">Desc</label>
+        <input type="text" class="form-control" id="desc" ng-model="form.desc" placeholder="Enter desc">
+    </div>
+    <button type="submit" class="btn btn-success btn-default">Submit</button>
+    <a href="#/post" class="btn btn-default">Cancel</a>
+</form>
